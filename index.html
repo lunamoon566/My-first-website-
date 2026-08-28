@@ -19,12 +19,14 @@
             if (task !== "") {
                 let item = document.createElement("li");
                 item.textContent = "✅ " + task;
+
                 item.onclick = function() {
-    item.remove();
-};
+                    item.remove();
+                };
+
                 document.getElementById("list").appendChild(item);
             }
         }
     </script>
 </body>
-        </html>
+</html>
